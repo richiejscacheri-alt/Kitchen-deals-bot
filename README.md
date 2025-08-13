@@ -1,14 +1,4 @@
-
-# Kitchen Deals Bot (Telegram)
-
-A tiny Python bot that posts kitchen/cooking deals to a Telegram **Channel** using your bot's API token. Ideal for affiliate links.
-
-## Quick Start (Render Cron Job)
-
-1. **Create bot** in Telegram via [@BotFather]. Copy the token.
-2. **Create public channel**, set username like `@MyKitchenDeals`, add your bot as **Admin** (Post Messages).
-3. **Set Environment Variables** in Render Cron:
-   - `TELEGRAM_TOKEN` = your BotFather token
+ token
    - `TELEGRAM_CHAT_ID` = `@MyKitchenDeals`
    - `AMAZON_TAG` = `yourtag-20` (optional)
 4. **Cron schedule:** `*/10 * * * *`
